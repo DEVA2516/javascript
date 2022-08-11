@@ -12,7 +12,7 @@ str.forEach((s, i) => {
         return str[i] = s.toUpperCase();
     
     else
-        return  s;
+        return  str[i] = s;
 
 });
 
