@@ -12,6 +12,7 @@ arr.forEach(v => {
 
         });
         console.log(v, count);
+        
         temp[k++] = v;
         count = 0;
     }
