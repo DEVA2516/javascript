@@ -3,7 +3,7 @@ str = str.split("");
 
 console.log(str);
 
-str.forEach((s, i) => {
+d = str.forEach((s, i) => {
 
     if (s >= 'A' && s <= 'Z')
         return str[i] = s.toLowerCase();
@@ -15,5 +15,6 @@ str.forEach((s, i) => {
         return  str[i] = s;
 
 });
+
 
 console.log(str.toString().replace(/,/g,""));
