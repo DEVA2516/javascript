@@ -1,0 +1,13 @@
+let student = [{ 
+    'name': "David Rayy", 
+    'sclass': "VI",
+    'rollno': 12 
+},{
+    'name': "Dave", 
+    'sclass': "V"}
+];
+
+student.forEach(v => {
+    console.log(v.name);
+    
+});
