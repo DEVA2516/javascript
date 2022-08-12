@@ -7,7 +7,7 @@ let teacher = [
 key = 'name';
 let new_arr = [];
 
-    exportkey(teacher,key);
+   exportkey(teacher,key);
 
 function exportkey(teacher,key) {
     teacher.forEach((v,i)=> {
