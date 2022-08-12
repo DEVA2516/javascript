@@ -17,17 +17,22 @@ let fullname = [
     }
 ];
 
+let fkey = 'first';
+let lkey = 'last';
+
 extractFullName(fullname);
 
 
 function extractFullName(fullname){
-    
-    fullname.forEach(v => {
-        v = Object.values(v);
-        console.log(v);
 
-        let FName = '';
-        v.forEach (b => FName += b +" ");
-        console.log(FName);
+   let  b = fullname.map(v => {
+
+        if (v.hasOwnProperty(fkey) && v.hasOwnProperty(lkey)){
+
+            return v = v[fkey] + " " + v[lkey];
+
+        }
     });
+
+    console.log(b);
 }

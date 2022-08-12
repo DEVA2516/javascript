@@ -5,3 +5,5 @@ let student = {
 };
 
 console.log(Object.keys(student).join(","));
+
+console.log(student.hasOwnProperty("no"));

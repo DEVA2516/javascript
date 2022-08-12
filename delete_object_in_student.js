@@ -6,7 +6,7 @@ let student = {
 
 console.log("before delete of object:\n",student);
 
-if (student.hasOwnProperty('rollno'))
+if (student.hasOwnProperty('rno'))
     delete student.rollno;
 else
     console.log(".....not property of object........")    
