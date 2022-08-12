@@ -14,6 +14,7 @@ let keys_arrays = 0 ;
 
 student.forEach(v => {
     keys_arrays += Object.keys(v).length;
+    //console.log(Object.keys);
     
 });
 

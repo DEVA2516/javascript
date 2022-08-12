@@ -4,11 +4,16 @@ let teacher = [
     {'name': 'Matt'}, 
     {'name': 'Colt'}
 ];
+key = 'title';
+value = 'Instructor';
 
-teacher.forEach(addKeyValue);
+addKeyValue(teacher,key,value)
+
 console.log(teacher);
 
-function addKeyValue(v){
-    return v.title = 'instructor'; 
-
+function addKeyValue(teacher,key,value){
+    teacher.forEach(v => {
+        console.log(v);
+         v.key = value; 
+    });
 }

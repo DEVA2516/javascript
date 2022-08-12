@@ -230,3 +230,8 @@ console.log(total_marks);
 
 
 console.log (students_record[0].mark.web_programming);
+
+students_record.forEach(v => {
+    console.log(Object.keys(students_record));
+});
+//console.log(Object.keys(students_record));

@@ -28,3 +28,8 @@ let key = 'readingStatus';
 
 //else 
 //    console.log("not property...");
+
+
+console.log(library.filter((v,i) => {
+ return library[i][key] == true;
+}));
