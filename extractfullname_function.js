@@ -21,10 +21,11 @@ extractFullName(fullname);
 
 
 function extractFullName(fullname){
+    
     fullname.forEach(v => {
         v = Object.values(v);
-        //let keys = Object.keys(v);
-        //console.log(keys);
+        console.log(v);
+
         let FName = '';
         v.forEach (b => FName += b +" ");
         console.log(FName);

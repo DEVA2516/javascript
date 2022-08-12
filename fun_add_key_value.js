@@ -13,7 +13,7 @@ console.log(teacher);
 
 function addKeyValue(teacher,key,value){
     teacher.forEach(v => {
-        console.log(v);
+        //console.log(v);
          v.key = value; 
     });
 }
