@@ -165,7 +165,7 @@ let carDetails = [
     {
         'first': 'Tim',
         'last': "Garcia",
-        'isCatOwner': true
+        'isCarOwner': true
     },
     {
         'first': 'Matt',
@@ -174,7 +174,7 @@ let carDetails = [
     {
         'first': 'Colt',
         'last': "Steele",
-        'isCatOwner': true
+        'isCarsOwner': true
     }
 ];
 

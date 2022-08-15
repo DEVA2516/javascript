@@ -6,7 +6,7 @@ let cars = [
     {
         'first': 'Tim',
         'last': "Garcia",
-        'isCatOwner': true
+        'isCarOwner': true
     },
     {
         'first': 'Matt',
@@ -15,11 +15,12 @@ let cars = [
     {
         'first': 'Colt',
         'last': "Steele",
-        'isCatOwner': true
+        'isCarOwner': true
     }
 ];
 
-let key = 'isCatOwner';
+let key = 'isCarOwner';
+
 //let owners;
 //     cars.forEach((v,i) => {
 //         if (v.hasOwnProperty(key)){
