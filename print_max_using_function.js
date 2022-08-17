@@ -17,6 +17,7 @@ function printArrayMax(a) {
 
 function printEachMax(a) {
     let max = a[0];
+    
     a.forEach(v => {
         if (v > max)
             max = v;
