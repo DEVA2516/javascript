@@ -8,11 +8,11 @@ for (let i = 0; i < arr.length; i++) {
     if (arr[i] > max) {
         max = arr[i];
         index = i;
-        max_array[j++] = max;
+        //max_array[j++] = max;
         //console.log(i);
     }
 }
-console.log(max_array);
+//console.log(max_array);
 
 arr.splice(index, 1);
 
