@@ -1,16 +1,17 @@
 let a = [11, 2, 34, 16, 6, 1, 10];
 let b = [1, 2, 3, 12, 23, 16, 12];
 
-commonElements(a, b);
+console.log(commonElements(a, b));
 
 function commonElements(a, b) {
+    let str = '';
     for (let i = 0; i < a.length; i++) {
         for (let j = 0; j < b.length; j++) {
-            if (a[i] == b[j]) {
-                console.log(a[i]);
-            }
+            if (a[i] == b[j])
+                str += a[i] + " ";
         }
     }
+    return str;
 }
 console.log("---------------------");
 
