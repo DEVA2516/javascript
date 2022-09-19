@@ -84,4 +84,4 @@ var library = [
 
 // console.log(library);
 
-console.log(library.sort(library[i].libraryID));
+console.log(library.sort());
